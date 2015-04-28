@@ -74,7 +74,7 @@ class Controller extends Component
         if (isset($this->_options['baseClass'])) {
             $baseClass = $this->_options['baseClass'];
         } else {
-            $baseClass = '\Phalcon\Mvc\Controller';
+            $baseClass = 'ControllerBase';
         }
 
         if (!isset($this->_options['controllersDir'])) {
